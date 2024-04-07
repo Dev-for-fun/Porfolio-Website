@@ -1,0 +1,70 @@
+#contact{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    padding: 6rem 2rem 0;
+    align-items: center;
+
+    @media screen and (max-width:700px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.app__contact-left{
+    flex: 0.7;
+    
+    h1{
+        letter-spacing: 0.4rem;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    .p-text{
+        font-size: 19px;
+    }
+    .achievements{
+        font-size: 22px;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+
+    .location{
+        display: flex;
+        align-items: center;
+
+        svg{
+            font-size: 1.5rem;
+        }
+
+        p{
+            font-size: larger;
+        }
+    }
+    .opportunity{
+        font-size: larger;
+        margin: 1rem 0;
+    }
+
+    .socials{
+        display: flex;
+        align-items: center;
+        svg{
+            font-size: 2rem;
+            margin:0.5rem 1rem;
+
+            &:hover{
+                color: purple;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.app__contact-right{
+    flex: 0.3;
+
+    .contact-animation{
+        
+    }
+}
