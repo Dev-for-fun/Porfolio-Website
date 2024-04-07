@@ -56,7 +56,7 @@ const Work = () => {
           MORE PROJECTS
         </a>
         <a
-          href="https://drive.google.com/file/d/1hbNiQXORWCEx93Y3dgeskYKa1tEJ6mMs/view?usp=sharing"
+          href="https://drive.google.com/file/d/1RTgDTvygxoBhisp5k_uNPv2dnYHFh02Q/view"
           target="/blank"
         >
           VIEW RESUME
