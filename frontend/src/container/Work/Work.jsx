@@ -43,7 +43,11 @@ const Work = () => {
             🚀A ReactJS application which uses new api to fetch all the latest news from different categories of daily life.
           </p>
           <div className="project-tech">
-            <div className="skill">ReactJS</div>
+          {["Javascript", "ReactJS", "CSS"].map(
+              (item) => (
+                <div className="skill">{item}</div>
+              )
+            )}
           </div>
         </div>
       </div>
@@ -52,7 +56,7 @@ const Work = () => {
           MORE PROJECTS
         </a>
         <a
-          href="https://drive.google.com/file/d/1YdoHqs1c1WT5WV8sWB55_Bz57sPMPBPB/view?usp=sharing "
+          href="https://drive.google.com/file/d/1hbNiQXORWCEx93Y3dgeskYKa1tEJ6mMs/view?usp=sharing"
           target="/blank"
         >
           VIEW RESUME
